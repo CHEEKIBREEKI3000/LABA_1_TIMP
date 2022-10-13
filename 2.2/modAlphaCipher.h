@@ -1,8 +1,5 @@
 #pragma once
-#include <vector>
 #include <string>
-#include <map>
-#include <locale>
 using namespace std;
 class Cipher
 {
