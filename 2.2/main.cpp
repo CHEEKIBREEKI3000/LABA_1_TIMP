@@ -18,8 +18,6 @@ int main(int argc, char **argv)
     wstring z;
     wstring text;
     unsigned op;
-    wcout<<L"Пожалуйста введите пароль: ";
-    wcin>>z;
     Cipher cipher(klych);
     do {
         wcout<<L"Какую операцию необходимо произветси(0-exit, 1-encrypt, 2-decrypt): ";
