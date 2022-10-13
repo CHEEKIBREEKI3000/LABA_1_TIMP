@@ -33,7 +33,7 @@ int main(int argc, char **argv)
                 } else {
                     wcout<<L"Раскодированный текст: "<<cipher.raskodirovatCipher(cipher, text)<<endl;
                 }
-                }else
+                }
         }
     } while (op!=0);
     return 0;
