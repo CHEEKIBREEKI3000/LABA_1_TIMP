@@ -33,9 +33,7 @@ int main(int argc, char **argv)
                 } else {
                     wcout<<L"Раскодированный текст: "<<cipher.raskodirovatCipher(cipher, text)<<endl;
                 }
-                }else {
-                wcout<<L"Operation aborted: invalid text\n";
-                }
+                }else
         }
     } while (op!=0);
     return 0;
