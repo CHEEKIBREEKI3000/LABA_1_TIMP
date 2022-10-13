@@ -12,7 +12,7 @@ bool isValid(const wstring& s)
 }
 int main(int argc, char **argv)
 {
-    int klych=3;
+    int klych=2;
     locale loc("ru_RU.UTF-8");
     locale::global(loc);
     wstring z;
